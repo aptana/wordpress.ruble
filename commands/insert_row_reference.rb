@@ -2,6 +2,7 @@ require 'ruble'
 
 command 'Insert Row Reference' do |cmd|
   cmd.scope = 'source.php'
+  cmd.trigger = 'row'
   cmd.output = :insert_as_snippet
   cmd.input = :none
   cmd.invoke =<<-EOF

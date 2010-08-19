@@ -2,6 +2,7 @@ require 'ruble'
 
 command 'Navigation:' do |cmd|
   cmd.scope = 'source.php'
+  cmd.trigger = 'nav'
   cmd.output = :insert_as_snippet
   cmd.input = :none
   cmd.invoke =<<-EOF

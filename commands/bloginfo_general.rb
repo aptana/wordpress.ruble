@@ -2,6 +2,7 @@ require 'ruble'
 
 command 'Bloginfo: General' do |cmd|
   cmd.scope = 'source.php'
+  cmd.trigger = 'blog'
   cmd.output = :insert_as_snippet
   cmd.input = :none
   cmd.invoke =<<-EOF

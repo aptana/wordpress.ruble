@@ -2,6 +2,7 @@ require 'ruble'
 
 command 'Header' do |cmd|
   cmd.scope = 'source.php'
+  cmd.trigger = 'wphead'
   cmd.output = :insert_as_snippet
   cmd.input = :none
   cmd.invoke =<<-EOF

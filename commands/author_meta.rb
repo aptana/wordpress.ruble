@@ -2,6 +2,7 @@ require 'ruble'
 
 command 'Author Meta' do |cmd|
   cmd.scope = 'source.php'
+  cmd.trigger = 'author'
   cmd.output = :insert_as_snippet
   cmd.input = :none
   cmd.invoke =<<-EOF

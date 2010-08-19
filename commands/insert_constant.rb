@@ -2,6 +2,7 @@ require 'ruble'
 
 command 'Insert Constant' do |cmd|
   cmd.scope = 'source.php'
+  cmd.trigger = 'const'
   cmd.output = :insert_as_snippet
   cmd.input = :none
   cmd.invoke =<<-EOF

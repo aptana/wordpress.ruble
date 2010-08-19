@@ -2,6 +2,7 @@ require 'ruble'
 
 command 'Insert Condition' do |cmd|
   cmd.scope = 'source.php'
+  cmd.trigger = 'is'
   cmd.output = :insert_as_snippet
   cmd.input = :none
   cmd.invoke =<<-EOF

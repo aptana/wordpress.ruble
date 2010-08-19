@@ -2,6 +2,7 @@ require 'ruble'
 
 command 'Escaping functions' do |cmd|
   cmd.scope = 'source.php'
+  cmd.trigger = 'esc'
   cmd.output = :insert_as_snippet
   cmd.input = :none
   cmd.invoke =<<-EOF

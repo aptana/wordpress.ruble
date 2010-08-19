@@ -2,6 +2,7 @@ require 'ruble'
 
 command 'Link:' do |cmd|
   cmd.scope = 'source.php'
+  cmd.trigger = 'wplink'
   cmd.output = :insert_as_snippet
   cmd.input = :none
   cmd.invoke =<<-EOF

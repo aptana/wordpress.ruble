@@ -2,6 +2,7 @@ require 'ruble'
 
 command 'Insert Class Reference' do |cmd|
   cmd.scope = 'source.php'
+  cmd.trigger = 'wpdb'
   cmd.output = :insert_as_snippet
   cmd.input = :none
   cmd.invoke =<<-EOF

@@ -2,6 +2,7 @@ require 'ruble'
 
 command 'Comments' do |cmd|
   cmd.scope = 'source.php'
+  cmd.trigger = 'wpcomment'
   cmd.output = :insert_as_snippet
   cmd.input = :none
   cmd.invoke =<<-EOF
