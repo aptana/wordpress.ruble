@@ -2,7 +2,7 @@ require 'ruble'
 
 command 'Localize' do |cmd|
   cmd.key_binding = 'M3+L'
-  cmd.scope = 'text.html'
+  cmd.scope = 'source.php'
   cmd.output = :insert_as_snippet
   cmd.input = :none, :none
   cmd.invoke =<<-EOF

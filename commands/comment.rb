@@ -1,8 +1,7 @@
 require 'ruble'
 
 command 'Comment:' do |cmd|
-  cmd.scope = 'text.html'
-  cmd.trigger = 'text.html'
+  cmd.scope = 'source.php'
   cmd.output = :insert_as_snippet
   cmd.input = :none
   cmd.invoke =<<-EOF
