@@ -5,23 +5,21 @@ command 'Header' do |cmd|
   cmd.trigger = 'wphead'
   cmd.output = :insert_as_snippet
   cmd.input = :none
-  cmd.invoke =<<-EOF
-#!/usr/bin/env ruby -wKU
-require ENV['TM_SUPPORT_PATH'] + '/lib/escape'
-require ENV['TM_SUPPORT_PATH'] + '/lib/ui'
-
-items = [
-  { 'title' => 'Get Header' , 'insert' => %^get_header(); ^},
-  { 'title' => 'Header Hook' , 'insert' => %^wp_head(); ^},
-]
-
-if res = TextMate::UI.menu(items)
-  scope = ENV['TM_SCOPE']
-  if scope.include? 'source.php' 
-    print res['insert']
-  else
-    print "<?php " + res['insert'] + "?>"
+  cmd.invoke do
+    items = [
+      { 'title' => 'Get Header' , 'insert' => %^get_header(); ^},
+      { 'title' => 'Header Hook' , 'insert' => %^wp_head(); ^},
+    ]
+    
+    if res = Ruble::UI.menu(items)
+      scope = ENV['TM_SCOPE']
+      if scope.include? 'source.php.embedded.block.html'
+        res['insert']
+      else
+        "<?php " + res['insert'] + "?>"
+      end
+    else
+      nil
+    end
   end
-end
-EOF
 end

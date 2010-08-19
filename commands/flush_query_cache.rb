@@ -5,7 +5,5 @@ command 'Flush Query Cache' do |cmd|
   cmd.trigger = 'flush'
   cmd.output = :insert_as_snippet
   cmd.input = :none
-  cmd.invoke =<<-EOF
-<?php $wpdb->flush(); ?>  
-EOF
+  cmd.invoke { "<?php $wpdb->flush(); ?>" }
 end

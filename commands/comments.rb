@@ -5,13 +5,12 @@ command 'Comments' do |cmd|
   cmd.trigger = 'wpcomment'
   cmd.output = :insert_as_snippet
   cmd.input = :none
-  cmd.invoke =<<-EOF
-#!/usr/bin/env ruby
-scope = ENV['TM_SCOPE']
-if scope.include? 'source.php' 
-  print 'comments_template(); '
-else
-  print '<?php comments_template(); ?> '
-end
-EOF
+  cmd.invoke do
+    scope = ENV['TM_SCOPE']
+    if scope.include? 'source.php.embedded.block.html'
+      'comments_template(); '
+    else
+      '<?php comments_template(); ?> '
+    end
+  end
 end
