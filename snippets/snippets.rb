@@ -1,30 +1,27 @@
+with_defaults :scope => 'source.php' do
+  
 snippet 'Action' do |s|
   s.trigger = 'wpact'
-  s.scope = 'text.html'
   s.expansion = 'add_action(\'${1:hook}\',\'${2:callback-function}\',${3:10},${4:1});'
 end
 
 snippet 'Filter' do |s|
   s.trigger = 'wpfilt'
-  s.scope = 'text.html'
   s.expansion = 'add_filter(\'${1:hook}\',\'${2:callback-function}\',${3:10},${4:1});'
 end
 
 snippet 'Get Archives' do |s|
   s.trigger = 'wparch'
-  s.scope = 'text.html'
   s.expansion = '<?php wp_get_archives(\'${1:type=monthly&limit=12&show_post_count=1}\'); ?>'
 end
 
 snippet 'Get Category Parents' do |s|
   s.trigger = 'catparents'
-  s.scope = 'text.html'
   s.expansion = '<?php echo(get_category_parents(${1:category}, ${2:display link}, ${3:separator}, ${4:nice name})); ?>'
 end
 
 snippet 'Get The Category (Categories)' do |s|
   s.trigger = 'thecat'
-  s.scope = 'text.html'
   s.expansion = '<?php 
 foreach((get_the_category()) as $cat) { 
 ${1:echo $cat->cat_name . \' \';}$2 
@@ -34,13 +31,11 @@ end
 
 snippet 'Headline' do |s|
   s.trigger = 'headline'
-  s.scope = 'text.html'
   s.expansion = '<a href="<?php the_permalink(); ?>" rel="bookmark">"\'><?php the_title(); ?></a>'
 end
 
 snippet 'HTML Body tag' do |s|
   s.trigger = 'body'
-  s.scope = 'text.html'
   s.expansion = '<body ${1:<?php body_class(); ?>}>
 	$2
 </body>'
@@ -48,19 +43,16 @@ end
 
 snippet 'List Categories (Full Options)' do |s|
   s.trigger = 'listcats'
-  s.scope = 'text.html'
   s.expansion = '<?php list_cats(${1:optionall}, \'${2:all}\', \'${3:sort_column}\',\'${4:sort_order}\', \'${5:file}\', ${6:list}, ${7:optiondates}, ${8:optioncount}, ${9:hide_empty}, ${10:use_desc_for_title}, ${11:children}, ${12:child_of}, \'${13:Categories}\', ${14:recurse}, \'${15:feed}\', \'${16:feed_img}\', \'${17:exclude}\', ${18:hierarchical}); ?>$0'
 end
 
 snippet 'List Categories (WP)' do |s|
   s.trigger = 'listcats'
-  s.scope = 'text.html'
   s.expansion = '<?php wp_list_cats(\'$1\'); ?>$0'
 end
 
 snippet 'Loop' do |s|
   s.trigger = 'loop'
-  s.scope = 'text.html'
   s.expansion = '<?php if (have_posts()) : ?>
 
 	<?php while (have_posts()) : the_post(); ?>
@@ -80,7 +72,6 @@ end
 
 snippet 'Plugin with GPL' do |s|
   s.trigger = 'plugin'
-  s.scope = 'text.html'
   s.expansion = '<?php
 /*
 Plugin Name: $1
@@ -115,7 +106,6 @@ end
 
 snippet 'Plugin' do |s|
   s.trigger = 'plugin'
-  s.scope = 'text.html'
   s.expansion = '<?php
 /*
 Plugin Name: $1
@@ -135,7 +125,6 @@ end
 
 snippet 'Query Posts' do |s|
   s.trigger = 'query'
-  s.scope = 'text.html'
   s.expansion = '<?php query_posts("${1:cat=-3}") ?>'
 end
 
@@ -169,13 +158,11 @@ end
 
 snippet 'Single Post Title' do |s|
   s.trigger = 'singletitle'
-  s.scope = 'text.html'
   s.expansion = '<?php single_post_title(${1:\'Current post: \'}${2:, TRUE}); ?>'
 end
 
 snippet 'Widget' do |s|
   s.trigger = 'widget'
-  s.scope = 'text.html'
   s.expansion = 'class $1_Widget extends WP_Widget {
 
 	function $1_Widget() {
@@ -225,7 +212,7 @@ end
 
 snippet 'WP Redirect' do |s|
   s.trigger = 'wpredir'
-  s.scope = 'text.html'
   s.expansion = 'wp_redirect("$1",${2:301});	'
 end
 
+end
