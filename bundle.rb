@@ -3,7 +3,7 @@ require 'ruble'
 bundle 'Wordpress' do |bundle|
   bundle.author = 'Joost de Valk, Brett Terpstra'
   bundle.description =  <<END
-Wordpress Ruble converted from Textmate bundle. TM Bundle by:
+Wordpress Ruble converted from TextMate bundle. TM Bundle by:
 http://yoast.com/tools/textmate/ - Joost de Valk
 http://blog.circlesixdesign.com/ - Brett Terpstra
 END

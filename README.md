@@ -11,6 +11,6 @@ A bundle to enable related commands in Aptana Studio. Ported from http://yoast.c
 
 Forthcoming
 
-## Other Stuff
+## Bugs/Requests
 
 * You can [report a bug or request a feature here](http://github.com/aptana/wordpress.ruble/issues)
