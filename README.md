@@ -9,7 +9,7 @@ A bundle to enable related commands in Aptana Studio. Ported from http://yoast.c
 
 ## License
 
-Forthcoming
+Licensed under the terms of the MIT license.
 
 ## Bugs/Requests
 
