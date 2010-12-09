@@ -1,7 +1,6 @@
 require 'ruble'
 
 command 'Localize var' do |cmd|
-  cmd.key_binding = 'M3+M2+L'
   cmd.scope = 'source.php'
   cmd.output = :insert_as_snippet
   cmd.input = :none
