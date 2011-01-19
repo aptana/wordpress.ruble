@@ -1,0 +1,1353 @@
+!!com.aptana.scripting.model.BundleElement
+author: Joost de Valk, Brett Terpstra
+children:
+- !!com.aptana.scripting.model.MenuElement
+  children:
+  - children:
+    - children: &id001 []
+      commandName: Sidebar
+      customProperties: null
+      displayName: Sidebar
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Comments
+      customProperties: null
+      displayName: Comments
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: HTML Body tag
+      customProperties: null
+      displayName: HTML Body tag
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Footer
+      customProperties: null
+      displayName: Footer
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Header
+      customProperties: null
+      displayName: Header
+      path: bundle.rb
+      scope: null
+    commandName: Structure
+    customProperties: null
+    displayName: Structure
+    path: bundle.rb
+    scope: null
+  - children:
+    - children: *id001
+      commandName: 'Comment:'
+      customProperties: null
+      displayName: 'Comment:'
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Author Meta
+      customProperties: null
+      displayName: Author Meta
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Loop
+      customProperties: null
+      displayName: Loop
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Headline
+      customProperties: null
+      displayName: Headline
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: '-'
+      customProperties: null
+      displayName: '-'
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: 'Post:'
+      customProperties: null
+      displayName: 'Post:'
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: 'Navigation:'
+      customProperties: null
+      displayName: 'Navigation:'
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: '-'
+      customProperties: null
+      displayName: '-'
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Query Posts
+      customProperties: null
+      displayName: Query Posts
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Flush Query Cache
+      customProperties: null
+      displayName: Flush Query Cache
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Insert Class Reference
+      customProperties: null
+      displayName: Insert Class Reference
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Insert Table Reference
+      customProperties: null
+      displayName: Insert Table Reference
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Insert Row Reference
+      customProperties: null
+      displayName: Insert Row Reference
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: '-'
+      customProperties: null
+      displayName: '-'
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Insert Constant
+      customProperties: null
+      displayName: Insert Constant
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Insert Condition
+      customProperties: null
+      displayName: Insert Condition
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: '-'
+      customProperties: null
+      displayName: '-'
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: 'Bloginfo: General'
+      customProperties: null
+      displayName: 'Bloginfo: General'
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: 'Bloginfo: Feeds'
+      customProperties: null
+      displayName: 'Bloginfo: Feeds'
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Navigation
+      customProperties: null
+      displayName: Navigation
+      path: bundle.rb
+      scope: null
+    commandName: Loop
+    customProperties: null
+    displayName: Loop
+    path: bundle.rb
+    scope: null
+  - children:
+    - children: *id001
+      commandName: List Categories (WP)
+      customProperties: null
+      displayName: List Categories (WP)
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: List Categories (Full Options)
+      customProperties: null
+      displayName: List Categories (Full Options)
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Get Category Parents
+      customProperties: null
+      displayName: Get Category Parents
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Get The Category (Categories)
+      customProperties: null
+      displayName: Get The Category (Categories)
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Cat->Member Variable
+      customProperties: null
+      displayName: Cat->Member Variable
+      path: bundle.rb
+      scope: null
+    commandName: Categories
+    customProperties: null
+    displayName: Categories
+    path: bundle.rb
+    scope: null
+  - children:
+    - children: *id001
+      commandName: Filter
+      customProperties: null
+      displayName: Filter
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Action
+      customProperties: null
+      displayName: Action
+      path: bundle.rb
+      scope: null
+    commandName: Plugins
+    customProperties: null
+    displayName: Plugins
+    path: bundle.rb
+    scope: null
+  - children:
+    - children: *id001
+      commandName: Escaping functions
+      customProperties: null
+      displayName: Escaping functions
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Single Post Title
+      customProperties: null
+      displayName: Single Post Title
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Post->Member Variable
+      customProperties: null
+      displayName: Post->Member Variable
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Comment->Member Variable
+      customProperties: null
+      displayName: Comment->Member Variable
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Get Archives
+      customProperties: null
+      displayName: Get Archives
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: WP Redirect
+      customProperties: null
+      displayName: WP Redirect
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: 'Link:'
+      customProperties: null
+      displayName: 'Link:'
+      path: bundle.rb
+      scope: null
+    commandName: Other
+    customProperties: null
+    displayName: Other
+    path: bundle.rb
+    scope: null
+  - children:
+    - children: *id001
+      commandName: Widget
+      customProperties: null
+      displayName: Widget
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Readme.txt
+      customProperties: null
+      displayName: Readme.txt
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Plugin with GPL
+      customProperties: null
+      displayName: Plugin with GPL
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Plugin
+      customProperties: null
+      displayName: Plugin
+      path: bundle.rb
+      scope: null
+    commandName: Plugin creation
+    customProperties: null
+    displayName: Plugin creation
+    path: bundle.rb
+    scope: null
+  - children:
+    - children: *id001
+      commandName: Localize
+      customProperties: null
+      displayName: Localize
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Localize var
+      customProperties: null
+      displayName: Localize var
+      path: bundle.rb
+      scope: null
+    commandName: Localization
+    customProperties: null
+    displayName: Localization
+    path: bundle.rb
+    scope: null
+  commandName: Wordpress
+  customProperties: null
+  displayName: Wordpress
+  path: bundle.rb
+  scope: null
+- !!com.aptana.scripting.model.CommandElement
+  async: false
+  customProperties:
+    prefix_values: [author]
+  displayName: Author Meta
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: commands/author_meta.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.CommandElement
+  async: false
+  customProperties:
+    prefix_values: [blog]
+  displayName: 'Bloginfo: Feeds'
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: commands/bloginfo_feeds.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.CommandElement
+  async: false
+  customProperties:
+    prefix_values: [blog]
+  displayName: 'Bloginfo: General'
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: commands/bloginfo_general.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.CommandElement
+  async: false
+  customProperties:
+    prefix_values: [$cat]
+  displayName: Cat->Member Variable
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: commands/cat_member_variable.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.CommandElement
+  async: false
+  customProperties:
+    prefix_values: [comment]
+  displayName: 'Comment:'
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: commands/comment.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.CommandElement
+  async: false
+  customProperties:
+    prefix_values: [$comment]
+  displayName: Comment->Member Variable
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: commands/comment_member_variable.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.CommandElement
+  async: false
+  customProperties:
+    prefix_values: [wpcomment]
+  displayName: Comments
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: commands/comments.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.CommandElement
+  async: false
+  customProperties:
+    prefix_values: [esc]
+  displayName: Escaping functions
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: commands/escaping_functions.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.CommandElement
+  async: false
+  customProperties:
+    prefix_values: [flush]
+  displayName: Flush Query Cache
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: commands/flush_query_cache.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.CommandElement
+  async: false
+  customProperties:
+    prefix_values: [wpfoot]
+  displayName: Footer
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: commands/footer.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.CommandElement
+  async: false
+  customProperties:
+    prefix_values: [wphead]
+  displayName: Header
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: commands/header.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.CommandElement
+  async: false
+  customProperties:
+    prefix_values: [wpdb]
+  displayName: Insert Class Reference
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: commands/insert_class_reference.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.CommandElement
+  async: false
+  customProperties:
+    prefix_values: [is]
+  displayName: Insert Condition
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: commands/insert_condition.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.CommandElement
+  async: false
+  customProperties:
+    prefix_values: [const]
+  displayName: Insert Constant
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: commands/insert_constant.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.CommandElement
+  async: false
+  customProperties:
+    prefix_values: [row]
+  displayName: Insert Row Reference
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: commands/insert_row_reference.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.CommandElement
+  async: false
+  customProperties:
+    prefix_values: [wpdb]
+  displayName: Insert Table Reference
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: commands/insert_table_reference.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.CommandElement
+  async: false
+  customProperties:
+    prefix_values: [wplink]
+  displayName: 'Link:'
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: commands/link.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.CommandElement {async: false, customProperties: null,
+  displayName: Localize, inputPath: null, keyBindingMap: null, outputPath: null, outputType: insert_as_snippet,
+  path: commands/localize.rb, runType: current_thread, scope: source.php, workingDirectoryType: UNDEFINED}
+- !!com.aptana.scripting.model.CommandElement {async: false, customProperties: null,
+  displayName: Localize var, inputPath: null, keyBindingMap: null, outputPath: null,
+  outputType: insert_as_snippet, path: commands/localize_var.rb, runType: current_thread,
+  scope: source.php, workingDirectoryType: UNDEFINED}
+- !!com.aptana.scripting.model.CommandElement
+  async: false
+  customProperties:
+    prefix_values: [nav]
+  displayName: 'Navigation:'
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: commands/navigation.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.CommandElement
+  async: false
+  customProperties:
+    prefix_values: [post]
+  displayName: 'Post:'
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: commands/post.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.CommandElement
+  async: false
+  customProperties:
+    prefix_values: [$post]
+  displayName: Post->Member Variable
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: commands/post_member_variable.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.CommandElement
+  async: false
+  customProperties:
+    prefix_values: [wpside]
+  displayName: Sidebar
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: commands/sidebar.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [wpact]
+  displayName: Action
+  expansion: add_action('${1:hook}','${2:callback-function}',${3:10},${4:1});
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [wpfilt]
+  displayName: Filter
+  expansion: add_filter('${1:hook}','${2:callback-function}',${3:10},${4:1});
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [wparch]
+  displayName: Get Archives
+  expansion: <?php wp_get_archives('${1:type=monthly&limit=12&show_post_count=1}'); ?>
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [catparents]
+  displayName: Get Category Parents
+  expansion: <?php echo(get_category_parents(${1:category}, ${2:display link}, ${3:separator}, ${4:nice name})); ?>
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [thecat]
+  displayName: Get The Category (Categories)
+  expansion: "<?php \nforeach((get_the_category()) as $cat) { \n${1:echo $cat->cat_name\
+    \ . ' ';}$2 \n} ?>\n$0"
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [headline]
+  displayName: Headline
+  expansion: <a href="<?php the_permalink(); ?>" rel="bookmark">"'><?php the_title(); ?></a>
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [body]
+  displayName: HTML Body tag
+  expansion: "<body ${1:<?php body_class(); ?>}>\n\t$2\n</body>"
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [listcats]
+  displayName: List Categories (Full Options)
+  expansion: <?php list_cats(${1:optionall}, '${2:all}', '${3:sort_column}','${4:sort_order}', '${5:file}', ${6:list}, ${7:optiondates}, ${8:optioncount}, ${9:hide_empty}, ${10:use_desc_for_title}, ${11:children}, ${12:child_of}, '${13:Categories}', ${14:recurse}, '${15:feed}', '${16:feed_img}', '${17:exclude}', ${18:hierarchical}); ?>$0
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [listcats]
+  displayName: List Categories (WP)
+  expansion: <?php wp_list_cats('$1'); ?>$0
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [loop]
+  displayName: Loop
+  expansion: "<?php if (have_posts()) : ?>\n\n\t<?php while (have_posts()) : the_post();\
+    \ ?>\n\n\t\t<?php // Individual Post Styling ?>\n\n\t<?php endwhile; ?>\n\n\t\t\
+    <?php // Navigation ?>\n\n\t<?php else : ?>\n\n\t\t<?php // No Posts Found ?>\n\
+    \n<?php endif; ?>"
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [plugin]
+  displayName: Plugin with GPL
+  expansion: '<?php
+
+    /*
+
+    Plugin Name: $1
+
+    Version: ${2:0.1}
+
+    Plugin URI: ${TM_PLUGIN_BASE}$3
+
+    Description: $4
+
+    Author: ${TM_NAME}
+
+    Author URI: ${TM_HOMEPAGE}
+
+
+    Copyright `date +%Y` ${TM_NAME} (email: ${TM_EMAIL})
+
+
+    This program is free software; you can redistribute it and/or modify
+
+    it under the terms of the GNU General Public License as published by
+
+    the Free Software Foundation; either version 2 of the License, or
+
+    (at your option) any later version.
+
+
+    This program is distributed in the hope that it will be useful,
+
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+
+    GNU General Public License for more details.
+
+
+    You should have received a copy of the GNU General Public License
+
+    along with this program; if not, write to the Free Software
+
+    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+    */
+
+
+    $5
+
+
+    ?>
+
+    '
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [plugin]
+  displayName: Plugin
+  expansion: '<?php
+
+    /*
+
+    Plugin Name: $1
+
+    Version: ${2:0.1}
+
+    Plugin URI: ${TM_PLUGIN_BASE}$3
+
+    Description: $4
+
+    Author: ${TM_NAME}
+
+    Author URI: ${TM_HOMEPAGE}
+
+    */
+
+
+    $5
+
+
+
+    ?>
+
+    '
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [query]
+  displayName: Query Posts
+  expansion: <?php query_posts("${1:cat=-3}") ?>
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [readme]
+  displayName: Readme.txt
+  expansion: '=== ${1:Plugin Name} ===
+
+    Contributors: ${TM_WP_LOGIN}
+
+    Donate link: ${TM_HOMEPAGE}
+
+    Tags: ${2:tag, tag}
+
+    Requires at least: ${3:2.5}
+
+    Tested up to: ${4:2.8}
+
+    Stable tag: ${5:0.1}
+
+
+    ${6:Short description}
+
+
+    == Description ==
+
+
+    ${7:Short description}
+
+
+    == Installation ==
+
+
+    1. Upload the \`${8:plugin}\` folder to the \`/wp-content/plugins/\` directory
+
+    1. Activate the plugin through the ''Plugins'' menu in WordPress
+
+    1. $9
+
+
+    == Changelog ==
+
+
+    = $5 =
+
+    * Initial release.'
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [singletitle]
+  displayName: Single Post Title
+  expansion: '<?php single_post_title(${1:''Current post: ''}${2:, TRUE}); ?>'
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [widget]
+  displayName: Widget
+  expansion: "class $1_Widget extends WP_Widget {\n\n\tfunction $1_Widget() {\n\t\t\
+    \\$widget_ops = array( 'classname' => '$2', 'description' => '$3' );\n\t\t\\$control_ops\
+    \ = array( 'width' => 200, 'height' => 250, 'id_base' => '$4' );\n\t\t\\$this->WP_Widget(\
+    \ '$4', '${5:title}', \\$widget_ops, \\$control_ops );\n\t}\n\n\tfunction widget(\
+    \ \\$args, \\$instance ) {\n\t\textract( \\$args );\n\t\techo \\$before_widget;\n\
+    \t\t\\$title = apply_filters('widget_title', \\$instance['title'] );\n\t\tif (\
+    \ \\$title ) {\n\t\t\techo \\$before_title . \\$title . \\$after_title;\n\t\t\
+    }\n\t\techo \\$after_widget;\n\t}\n\n\tfunction update( \\$new_instance, \\$old_instance\
+    \ ) {\n\t\t\\$instance = \\$old_instance;\n\t\tforeach ( array('title') as \\\
+    $val ) {\n\t\t\t\\$instance[\\$val] = strip_tags( \\$new_instance[\\$val] );\n\
+    \t\t}\n\t\treturn \\$instance;\n\t}\n\n\tfunction form( \\$instance ) {\n\t\t\\\
+    $defaults = array( \n\t\t\t'title' \t\t=> '$5', \n\t\t);\n\t\t\\$instance = wp_parse_args(\
+    \ (array) \\$instance, \\$defaults ); ?>\n\t\t<p>\n\t\t\t<label for=\"<?php echo\
+    \ \\$this->get_field_id( 'title' ); ?>\"><?php _e(\"Title\"); ?>:</label>\n\t\t\
+    \t<input id=\"<?php echo \\$this->get_field_id( 'title' ); ?>\" name=\"<?php echo\
+    \ \\$this->get_field_name( 'title' ); ?>\" value=\"<?php echo \\$instance['title'];\
+    \ ?>\" style=\"width:100%;\" />\n\t\t</p>\n\t<?php \n\t}\n}\n\nfunction $4_widget_func()\
+    \ {\n\tregister_widget( '$1_Widget' );\n}\n\nadd_action( 'widgets_init', '$4_widget_func'\
+    \ );\n"
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [wpredir]
+  displayName: WP Redirect
+  expansion: "wp_redirect(\"$1\",${2:301});\t"
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [_openfile]
+  displayName: _openfile
+  expansion: "<textarea name=\"${1:option_name}\" cols=\"60\" rows=\"10\"><?php\n\
+    if( is_file($$${2:filename}) && filesize($$${2:filename}) > 0) {\n  $$fo = ;\n\
+    \  $$fo = fopen($$${2:filename}, 'r');\n  $$fr = fread($$fo, filesize($$${2:filename}));\n\
+    \  echo $$fr;\n  fclose($$fo);\n}\nelse _e('The file you're looking for can't\
+    \ be found.');?>  </textarea>"
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/templates.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [_savefile]
+  displayName: _savefile
+  expansion: "/*Save file*/\nif(!empty($$_POST['Submit'])){\n  $$${1:new_content}\
+    \ = stripslashes($$_POST['${2:textarea_option_name}']);\n  if(is_writeable($$${3:filename}))\
+    \ {\n      $$fow = fopen($$${3:filename}, 'w+');\n      fwrite($$fow, $$${1:new_content});\n\
+    \    fclose($$fow);\n      echo '<div id=\"message\" class=\"updated fade\"><p><strong>'.\
+    \ _e('File saved.') .'</strong></p></div>'.\"\n\";\n  }\n  else {\n    echo '<div\
+    \ id=\"message\" class=\"updated fade\"><p><strong>'. _e('There has been an error\
+    \ trying to write the file. Are you sure you have permission to do so?') .'</strong></p></div>'.\"\
+    \n\";\n  }\n}"
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/templates.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [add_action]
+  displayName: add_action
+  expansion: add_action('${1:hook_name}', '${2:function_name}_${1:hook_name}');
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/templates.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [add_action_init]
+  displayName: add_action_init
+  expansion: add_action('init', '${1:function_name}_init');
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/templates.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [add_action_wphead]
+  displayName: add_action_wphead
+  expansion: add_action('wp_head', '${0}_wp_head');
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/templates.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [add_filter]
+  displayName: add_filter
+  expansion: add_filter('${1:hook_name}', '${2:function_name}_${1:hook_name}');
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/templates.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [add_filter_the_content]
+  displayName: add_filter_the_content
+  expansion: add_filter('the_content', '${1:hook_name}');
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/templates.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [add_option]
+  displayName: add_option
+  expansion: add_option('${1:option_name}', '${2:option_value}');
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/templates.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [add_options_page]
+  displayName: add_options_page
+  expansion: add_options_page('${1:Plugin_or_theme_name} Options', '${1:Plugin_or_theme_name} Options', 8, __FILE__, '${2:function_name}_options');
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/templates.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [get_bloginfo]
+  displayName: get_bloginfo
+  expansion: get_bloginfo('$0')
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/templates.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [get_bloginfo_url]
+  displayName: get_bloginfo_url
+  expansion: get_bloginfo('url')
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/templates.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [get_footer]
+  displayName: get_footer
+  expansion: <?php get_footer(); ?>
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/templates.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [get_header]
+  displayName: get_header
+  expansion: <?php get_header(); ?>
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/templates.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [get_option]
+  displayName: get_option
+  expansion: get_option('$0')
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/templates.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [get_post_meta]
+  displayName: get_post_meta
+  expansion: get_post_meta($$post->ID, '$0', $$single = true);
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/templates.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [get_sidebar]
+  displayName: get_sidebar
+  expansion: <?php get_sidebar($0); ?>
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/templates.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [include_template]
+  displayName: include_template
+  expansion: <?php include (TEMPLATEPATH . '/${1:template_name}.php'); ?>
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/templates.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [the_loop]
+  displayName: the_loop
+  expansion: "<?php if(have_posts()) : while(have_posts()) : the_post(); ?>\n\n  <div\
+    \ id=\"post-<?php the_ID(); ?>\" <?php post_class(); ?>>\n\n    <?php the_title('<h2\
+    \ class=\"entry-title\"><a href=\"' . get_permalink() . '\" title=\"' . the_title_attribute('echo=0')\
+    \ . '\" rel=\"bookmark\">', '</a></h2>'); ?>\n\n    <p class=\"byline\">\n   \
+    \   <span class=\"author vcard\"><?php the_author_posts_link(); ?></span> <span\
+    \ class=\"sep\">|</span> \n      <abbr class=\"published\" title=\"<?php the_time(__('l,\
+    \ F jS, Y, g:i a', 'example')); ?>\"><?php the_time(__('F j, Y', 'example'));\
+    \ ?></abbr>\n      <?php edit_post_link(__('Edit', 'example'), ' <span class=\"\
+    sep\">|</span> <span class=\"edit\">', '</span> '); ?>\n    </p>\n\n    <div class=\"\
+    entry-content\">\n      <?php the_content(__('Continue reading', 'example'));\
+    \ ?>\n      <?php wp_link_pages('before=<p class=\"pages\">' . __('Pages:','example')\
+    \ . '&after=</p>'); ?>\n    </div>\n\n    <p class=\"entry-meta\">\n      <span\
+    \ class=\"categories\"><?php _e('Posted in', 'example'); ?> <?php the_category(',\
+    \ '); ?></span>\n      <?php the_tags('<span class=\"tags\"> <span class=\"sep\"\
+    >|</span> ' . __('Tagged', 'example') . ' ', ', ', '</span>'); ?> \n      <span\
+    \ class=\"sep\">|</span> <?php comments_popup_link(__('Leave a response', 'example'),\
+    \ __('1 Response', 'example'), __('% Responses', 'example'), 'comments-link',\
+    \ __('Comments closed', 'example')); ?> \n    </p>\n\n  </div>\n\n  <?php endwhile;\
+    \ ?>\n\n<?php else : ?>\n\n  <p class=\"no-posts\"><?php _e('Sorry, no posts matched\
+    \ your criteria', 'example'); ?></p>\n\n<?php endif; ?> "
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/templates.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [wp_enqueue_script]
+  displayName: wp_enqueue_script
+  expansion: wp_enqueue_script('$0');
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/templates.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [wp_enqueue_script_jquery]
+  displayName: wp_enqueue_script_jquery
+  expansion: wp_enqueue_script('jquery');
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/templates.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [wp_enqueue_script_unknown_jquery]
+  displayName: wp_enqueue_script_unknown_jquery
+  expansion: wp_enqueue_script('${1:handler}',  $$${2:path} . '${1:handler}.js', array('jquery'));
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/templates.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [wp_enqueue_style]
+  displayName: wp_enqueue_style
+  expansion: wp_enqueue_style('${1:handler}', $$${2:path} . '${1:handler}.css', false, false, 'screen');
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/templates.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [wpquery]
+  displayName: wpquery
+  expansion: '$$${1:wpquery_obj} = new WP_Query(''category_name=${2:category_name}&showposts=${3:1}&orderby=${4:post_date}&order=${5:desc}'');
+
+    $$${1:wpquery_obj}->the_post();'
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/templates.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+copyright: null
+customProperties: null
+decreaseIndentMarkers: &id002 {}
+description: 'Wordpress Ruble converted from TextMate bundle. TM Bundle by:
+
+  http://yoast.com/tools/textmate/ - Joost de Valk
+
+  http://blog.circlesixdesign.com/ - Brett Terpstra
+
+  '
+displayName: Wordpress
+fileTypeRegistry: *id002
+fileTypes: *id001
+foldingStartMarkers: *id002
+foldingStopMarkers: *id002
+increaseIndentMarkers: *id002
+license: null
+licenseUrl: null
+path: bundle.rb
+repository: git://github.com/aptana/wordpress.ruble.git
+visible: true
