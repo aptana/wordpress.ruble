@@ -325,6 +325,7 @@ children:
   customProperties:
     prefix_values: [author]
   displayName: Author Meta
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -338,6 +339,7 @@ children:
   customProperties:
     prefix_values: [blog]
   displayName: 'Bloginfo: Feeds'
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -351,6 +353,7 @@ children:
   customProperties:
     prefix_values: [blog]
   displayName: 'Bloginfo: General'
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -364,6 +367,7 @@ children:
   customProperties:
     prefix_values: [$cat]
   displayName: Cat->Member Variable
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -377,6 +381,7 @@ children:
   customProperties:
     prefix_values: [comment]
   displayName: 'Comment:'
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -390,6 +395,7 @@ children:
   customProperties:
     prefix_values: [$comment]
   displayName: Comment->Member Variable
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -403,6 +409,7 @@ children:
   customProperties:
     prefix_values: [wpcomment]
   displayName: Comments
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -416,6 +423,7 @@ children:
   customProperties:
     prefix_values: [esc]
   displayName: Escaping functions
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -429,6 +437,7 @@ children:
   customProperties:
     prefix_values: [flush]
   displayName: Flush Query Cache
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -442,6 +451,7 @@ children:
   customProperties:
     prefix_values: [wpfoot]
   displayName: Footer
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -455,6 +465,7 @@ children:
   customProperties:
     prefix_values: [wphead]
   displayName: Header
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -468,6 +479,7 @@ children:
   customProperties:
     prefix_values: [wpdb]
   displayName: Insert Class Reference
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -481,6 +493,7 @@ children:
   customProperties:
     prefix_values: [is]
   displayName: Insert Condition
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -494,6 +507,7 @@ children:
   customProperties:
     prefix_values: [const]
   displayName: Insert Constant
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -507,6 +521,7 @@ children:
   customProperties:
     prefix_values: [row]
   displayName: Insert Row Reference
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -520,6 +535,7 @@ children:
   customProperties:
     prefix_values: [wpdb]
   displayName: Insert Table Reference
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -533,6 +549,7 @@ children:
   customProperties:
     prefix_values: [wplink]
   displayName: 'Link:'
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -541,18 +558,38 @@ children:
   runType: current_thread
   scope: source.php
   workingDirectoryType: UNDEFINED
-- !!com.aptana.scripting.model.CommandElement {async: false, customProperties: null,
-  displayName: Localize, inputPath: null, keyBindingMap: null, outputPath: null, outputType: insert_as_snippet,
-  path: commands/localize.rb, runType: current_thread, scope: source.php, workingDirectoryType: UNDEFINED}
-- !!com.aptana.scripting.model.CommandElement {async: false, customProperties: null,
-  displayName: Localize var, inputPath: null, keyBindingMap: null, outputPath: null,
-  outputType: insert_as_snippet, path: commands/localize_var.rb, runType: current_thread,
-  scope: source.php, workingDirectoryType: UNDEFINED}
+- !!com.aptana.scripting.model.CommandElement
+  async: false
+  customProperties: null
+  displayName: Localize
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: commands/localize.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.CommandElement
+  async: false
+  customProperties: null
+  displayName: Localize var
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: commands/localize_var.rb
+  runType: current_thread
+  scope: source.php
+  workingDirectoryType: UNDEFINED
 - !!com.aptana.scripting.model.CommandElement
   async: false
   customProperties:
     prefix_values: [nav]
   displayName: 'Navigation:'
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -566,6 +603,7 @@ children:
   customProperties:
     prefix_values: [post]
   displayName: 'Post:'
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -579,6 +617,7 @@ children:
   customProperties:
     prefix_values: [$post]
   displayName: Post->Member Variable
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -592,6 +631,7 @@ children:
   customProperties:
     prefix_values: [wpside]
   displayName: Sidebar
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -606,6 +646,7 @@ children:
     prefix_values: [wpact]
   displayName: Action
   expansion: add_action('${1:hook}','${2:callback-function}',${3:10},${4:1});
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -620,6 +661,7 @@ children:
     prefix_values: [wpfilt]
   displayName: Filter
   expansion: add_filter('${1:hook}','${2:callback-function}',${3:10},${4:1});
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -634,6 +676,7 @@ children:
     prefix_values: [wparch]
   displayName: Get Archives
   expansion: <?php wp_get_archives('${1:type=monthly&limit=12&show_post_count=1}'); ?>
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -648,6 +691,7 @@ children:
     prefix_values: [catparents]
   displayName: Get Category Parents
   expansion: <?php echo(get_category_parents(${1:category}, ${2:display link}, ${3:separator}, ${4:nice name})); ?>
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -663,6 +707,7 @@ children:
   displayName: Get The Category (Categories)
   expansion: "<?php \nforeach((get_the_category()) as $cat) { \n${1:echo $cat->cat_name\
     \ . ' ';}$2 \n} ?>\n$0"
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -677,6 +722,7 @@ children:
     prefix_values: [headline]
   displayName: Headline
   expansion: <a href="<?php the_permalink(); ?>" rel="bookmark">"'><?php the_title(); ?></a>
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -691,6 +737,7 @@ children:
     prefix_values: [body]
   displayName: HTML Body tag
   expansion: "<body ${1:<?php body_class(); ?>}>\n\t$2\n</body>"
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -705,6 +752,7 @@ children:
     prefix_values: [listcats]
   displayName: List Categories (Full Options)
   expansion: <?php list_cats(${1:optionall}, '${2:all}', '${3:sort_column}','${4:sort_order}', '${5:file}', ${6:list}, ${7:optiondates}, ${8:optioncount}, ${9:hide_empty}, ${10:use_desc_for_title}, ${11:children}, ${12:child_of}, '${13:Categories}', ${14:recurse}, '${15:feed}', '${16:feed_img}', '${17:exclude}', ${18:hierarchical}); ?>$0
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -719,6 +767,7 @@ children:
     prefix_values: [listcats]
   displayName: List Categories (WP)
   expansion: <?php wp_list_cats('$1'); ?>$0
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -736,6 +785,7 @@ children:
     \ ?>\n\n\t\t<?php // Individual Post Styling ?>\n\n\t<?php endwhile; ?>\n\n\t\t\
     <?php // Navigation ?>\n\n\t<?php else : ?>\n\n\t\t<?php // No Posts Found ?>\n\
     \n<?php endif; ?>"
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -802,6 +852,7 @@ children:
     ?>
 
     '
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -841,6 +892,7 @@ children:
     ?>
 
     '
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -855,6 +907,7 @@ children:
     prefix_values: [query]
   displayName: Query Posts
   expansion: <?php query_posts("${1:cat=-3}") ?>
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -908,6 +961,7 @@ children:
     = $5 =
 
     * Initial release.'
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -922,6 +976,7 @@ children:
     prefix_values: [singletitle]
   displayName: Single Post Title
   expansion: '<?php single_post_title(${1:''Current post: ''}${2:, TRUE}); ?>'
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -954,6 +1009,7 @@ children:
     \ ?>\" style=\"width:100%;\" />\n\t\t</p>\n\t<?php \n\t}\n}\n\nfunction $4_widget_func()\
     \ {\n\tregister_widget( '$1_Widget' );\n}\n\nadd_action( 'widgets_init', '$4_widget_func'\
     \ );\n"
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -968,6 +1024,7 @@ children:
     prefix_values: [wpredir]
   displayName: WP Redirect
   expansion: "wp_redirect(\"$1\",${2:301});\t"
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -986,6 +1043,7 @@ children:
     \  $$fo = fopen($$${2:filename}, 'r');\n  $$fr = fread($$fo, filesize($$${2:filename}));\n\
     \  echo $$fr;\n  fclose($$fo);\n}\nelse _e('The file you're looking for can't\
     \ be found.');?>  </textarea>"
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -1007,6 +1065,7 @@ children:
     \ id=\"message\" class=\"updated fade\"><p><strong>'. _e('There has been an error\
     \ trying to write the file. Are you sure you have permission to do so?') .'</strong></p></div>'.\"\
     \n\";\n  }\n}"
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -1021,6 +1080,7 @@ children:
     prefix_values: [add_action]
   displayName: add_action
   expansion: add_action('${1:hook_name}', '${2:function_name}_${1:hook_name}');
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -1035,6 +1095,7 @@ children:
     prefix_values: [add_action_init]
   displayName: add_action_init
   expansion: add_action('init', '${1:function_name}_init');
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -1049,6 +1110,7 @@ children:
     prefix_values: [add_action_wphead]
   displayName: add_action_wphead
   expansion: add_action('wp_head', '${0}_wp_head');
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -1063,6 +1125,7 @@ children:
     prefix_values: [add_filter]
   displayName: add_filter
   expansion: add_filter('${1:hook_name}', '${2:function_name}_${1:hook_name}');
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -1077,6 +1140,7 @@ children:
     prefix_values: [add_filter_the_content]
   displayName: add_filter_the_content
   expansion: add_filter('the_content', '${1:hook_name}');
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -1091,6 +1155,7 @@ children:
     prefix_values: [add_option]
   displayName: add_option
   expansion: add_option('${1:option_name}', '${2:option_value}');
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -1105,6 +1170,7 @@ children:
     prefix_values: [add_options_page]
   displayName: add_options_page
   expansion: add_options_page('${1:Plugin_or_theme_name} Options', '${1:Plugin_or_theme_name} Options', 8, __FILE__, '${2:function_name}_options');
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -1119,6 +1185,7 @@ children:
     prefix_values: [get_bloginfo]
   displayName: get_bloginfo
   expansion: get_bloginfo('$0')
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -1133,6 +1200,7 @@ children:
     prefix_values: [get_bloginfo_url]
   displayName: get_bloginfo_url
   expansion: get_bloginfo('url')
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -1147,6 +1215,7 @@ children:
     prefix_values: [get_footer]
   displayName: get_footer
   expansion: <?php get_footer(); ?>
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -1161,6 +1230,7 @@ children:
     prefix_values: [get_header]
   displayName: get_header
   expansion: <?php get_header(); ?>
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -1175,6 +1245,7 @@ children:
     prefix_values: [get_option]
   displayName: get_option
   expansion: get_option('$0')
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -1189,6 +1260,7 @@ children:
     prefix_values: [get_post_meta]
   displayName: get_post_meta
   expansion: get_post_meta($$post->ID, '$0', $$single = true);
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -1203,6 +1275,7 @@ children:
     prefix_values: [get_sidebar]
   displayName: get_sidebar
   expansion: <?php get_sidebar($0); ?>
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -1217,6 +1290,7 @@ children:
     prefix_values: [include_template]
   displayName: include_template
   expansion: <?php include (TEMPLATEPATH . '/${1:template_name}.php'); ?>
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -1250,6 +1324,7 @@ children:
     \ __('Comments closed', 'example')); ?> \n    </p>\n\n  </div>\n\n  <?php endwhile;\
     \ ?>\n\n<?php else : ?>\n\n  <p class=\"no-posts\"><?php _e('Sorry, no posts matched\
     \ your criteria', 'example'); ?></p>\n\n<?php endif; ?> "
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -1264,6 +1339,7 @@ children:
     prefix_values: [wp_enqueue_script]
   displayName: wp_enqueue_script
   expansion: wp_enqueue_script('$0');
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -1278,6 +1354,7 @@ children:
     prefix_values: [wp_enqueue_script_jquery]
   displayName: wp_enqueue_script_jquery
   expansion: wp_enqueue_script('jquery');
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -1292,6 +1369,7 @@ children:
     prefix_values: [wp_enqueue_script_unknown_jquery]
   displayName: wp_enqueue_script_unknown_jquery
   expansion: wp_enqueue_script('${1:handler}',  $$${2:path} . '${1:handler}.js', array('jquery'));
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -1306,6 +1384,7 @@ children:
     prefix_values: [wp_enqueue_style]
   displayName: wp_enqueue_style
   expansion: wp_enqueue_style('${1:handler}', $$${2:path} . '${1:handler}.css', false, false, 'screen');
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
@@ -1322,6 +1401,7 @@ children:
   expansion: '$$${1:wpquery_obj} = new WP_Query(''category_name=${2:category_name}&showposts=${3:1}&orderby=${4:post_date}&order=${5:desc}'');
 
     $$${1:wpquery_obj}->the_post();'
+  input: [none]
   inputPath: null
   keyBindingMap: null
   outputPath: null
