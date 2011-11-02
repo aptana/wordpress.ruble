@@ -1,326 +1,7 @@
 !!com.aptana.scripting.model.BundleElement
 author: Joost de Valk, Brett Terpstra
 children:
-- !!com.aptana.scripting.model.MenuElement
-  children:
-  - children:
-    - children: &id001 []
-      commandName: Sidebar
-      customProperties: null
-      displayName: Sidebar
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: Comments
-      customProperties: null
-      displayName: Comments
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: HTML Body tag
-      customProperties: null
-      displayName: HTML Body tag
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: Footer
-      customProperties: null
-      displayName: Footer
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: Header
-      customProperties: null
-      displayName: Header
-      path: bundle.rb
-      scope: null
-    commandName: Structure
-    customProperties: null
-    displayName: Structure
-    path: bundle.rb
-    scope: null
-  - children:
-    - children: *id001
-      commandName: 'Comment:'
-      customProperties: null
-      displayName: 'Comment:'
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: Author Meta
-      customProperties: null
-      displayName: Author Meta
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: Loop
-      customProperties: null
-      displayName: Loop
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: Headline
-      customProperties: null
-      displayName: Headline
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: '-'
-      customProperties: null
-      displayName: '-'
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: 'Post:'
-      customProperties: null
-      displayName: 'Post:'
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: 'Navigation:'
-      customProperties: null
-      displayName: 'Navigation:'
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: '-'
-      customProperties: null
-      displayName: '-'
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: Query Posts
-      customProperties: null
-      displayName: Query Posts
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: Flush Query Cache
-      customProperties: null
-      displayName: Flush Query Cache
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: Insert Class Reference
-      customProperties: null
-      displayName: Insert Class Reference
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: Insert Table Reference
-      customProperties: null
-      displayName: Insert Table Reference
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: Insert Row Reference
-      customProperties: null
-      displayName: Insert Row Reference
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: '-'
-      customProperties: null
-      displayName: '-'
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: Insert Constant
-      customProperties: null
-      displayName: Insert Constant
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: Insert Condition
-      customProperties: null
-      displayName: Insert Condition
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: '-'
-      customProperties: null
-      displayName: '-'
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: 'Bloginfo: General'
-      customProperties: null
-      displayName: 'Bloginfo: General'
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: 'Bloginfo: Feeds'
-      customProperties: null
-      displayName: 'Bloginfo: Feeds'
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: Navigation
-      customProperties: null
-      displayName: Navigation
-      path: bundle.rb
-      scope: null
-    commandName: Loop
-    customProperties: null
-    displayName: Loop
-    path: bundle.rb
-    scope: null
-  - children:
-    - children: *id001
-      commandName: List Categories (WP)
-      customProperties: null
-      displayName: List Categories (WP)
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: List Categories (Full Options)
-      customProperties: null
-      displayName: List Categories (Full Options)
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: Get Category Parents
-      customProperties: null
-      displayName: Get Category Parents
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: Get The Category (Categories)
-      customProperties: null
-      displayName: Get The Category (Categories)
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: Cat->Member Variable
-      customProperties: null
-      displayName: Cat->Member Variable
-      path: bundle.rb
-      scope: null
-    commandName: Categories
-    customProperties: null
-    displayName: Categories
-    path: bundle.rb
-    scope: null
-  - children:
-    - children: *id001
-      commandName: Filter
-      customProperties: null
-      displayName: Filter
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: Action
-      customProperties: null
-      displayName: Action
-      path: bundle.rb
-      scope: null
-    commandName: Plugins
-    customProperties: null
-    displayName: Plugins
-    path: bundle.rb
-    scope: null
-  - children:
-    - children: *id001
-      commandName: Escaping functions
-      customProperties: null
-      displayName: Escaping functions
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: Single Post Title
-      customProperties: null
-      displayName: Single Post Title
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: Post->Member Variable
-      customProperties: null
-      displayName: Post->Member Variable
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: Comment->Member Variable
-      customProperties: null
-      displayName: Comment->Member Variable
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: Get Archives
-      customProperties: null
-      displayName: Get Archives
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: WP Redirect
-      customProperties: null
-      displayName: WP Redirect
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: 'Link:'
-      customProperties: null
-      displayName: 'Link:'
-      path: bundle.rb
-      scope: null
-    commandName: Other
-    customProperties: null
-    displayName: Other
-    path: bundle.rb
-    scope: null
-  - children:
-    - children: *id001
-      commandName: Widget
-      customProperties: null
-      displayName: Widget
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: Readme.txt
-      customProperties: null
-      displayName: Readme.txt
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: Plugin with GPL
-      customProperties: null
-      displayName: Plugin with GPL
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: Plugin
-      customProperties: null
-      displayName: Plugin
-      path: bundle.rb
-      scope: null
-    commandName: Plugin creation
-    customProperties: null
-    displayName: Plugin creation
-    path: bundle.rb
-    scope: null
-  - children:
-    - children: *id001
-      commandName: Localize
-      customProperties: null
-      displayName: Localize
-      path: bundle.rb
-      scope: null
-    - children: *id001
-      commandName: Localize var
-      customProperties: null
-      displayName: Localize var
-      path: bundle.rb
-      scope: null
-    commandName: Localization
-    customProperties: null
-    displayName: Localization
-    path: bundle.rb
-    scope: null
-  commandName: Wordpress
-  customProperties: null
-  displayName: Wordpress
-  path: bundle.rb
-  scope: null
-- !!com.aptana.scripting.model.CommandElement
+- !command
   async: false
   customProperties:
     prefix_values: [author]
@@ -334,7 +15,7 @@ children:
   runType: current_thread
   scope: source.php
   workingDirectoryType: UNDEFINED
-- !!com.aptana.scripting.model.CommandElement
+- !command
   async: false
   customProperties:
     prefix_values: [blog]
@@ -348,7 +29,7 @@ children:
   runType: current_thread
   scope: source.php
   workingDirectoryType: UNDEFINED
-- !!com.aptana.scripting.model.CommandElement
+- !command
   async: false
   customProperties:
     prefix_values: [blog]
@@ -362,7 +43,7 @@ children:
   runType: current_thread
   scope: source.php
   workingDirectoryType: UNDEFINED
-- !!com.aptana.scripting.model.CommandElement
+- !command
   async: false
   customProperties:
     prefix_values: [$cat]
@@ -376,7 +57,7 @@ children:
   runType: current_thread
   scope: source.php
   workingDirectoryType: UNDEFINED
-- !!com.aptana.scripting.model.CommandElement
+- !command
   async: false
   customProperties:
     prefix_values: [comment]
@@ -390,7 +71,7 @@ children:
   runType: current_thread
   scope: source.php
   workingDirectoryType: UNDEFINED
-- !!com.aptana.scripting.model.CommandElement
+- !command
   async: false
   customProperties:
     prefix_values: [$comment]
@@ -404,7 +85,7 @@ children:
   runType: current_thread
   scope: source.php
   workingDirectoryType: UNDEFINED
-- !!com.aptana.scripting.model.CommandElement
+- !command
   async: false
   customProperties:
     prefix_values: [wpcomment]
@@ -418,7 +99,7 @@ children:
   runType: current_thread
   scope: source.php
   workingDirectoryType: UNDEFINED
-- !!com.aptana.scripting.model.CommandElement
+- !command
   async: false
   customProperties:
     prefix_values: [esc]
@@ -432,7 +113,7 @@ children:
   runType: current_thread
   scope: source.php
   workingDirectoryType: UNDEFINED
-- !!com.aptana.scripting.model.CommandElement
+- !command
   async: false
   customProperties:
     prefix_values: [flush]
@@ -446,7 +127,7 @@ children:
   runType: current_thread
   scope: source.php
   workingDirectoryType: UNDEFINED
-- !!com.aptana.scripting.model.CommandElement
+- !command
   async: false
   customProperties:
     prefix_values: [wpfoot]
@@ -460,7 +141,7 @@ children:
   runType: current_thread
   scope: source.php
   workingDirectoryType: UNDEFINED
-- !!com.aptana.scripting.model.CommandElement
+- !command
   async: false
   customProperties:
     prefix_values: [wphead]
@@ -474,7 +155,7 @@ children:
   runType: current_thread
   scope: source.php
   workingDirectoryType: UNDEFINED
-- !!com.aptana.scripting.model.CommandElement
+- !command
   async: false
   customProperties:
     prefix_values: [wpdb]
@@ -488,7 +169,7 @@ children:
   runType: current_thread
   scope: source.php
   workingDirectoryType: UNDEFINED
-- !!com.aptana.scripting.model.CommandElement
+- !command
   async: false
   customProperties:
     prefix_values: [is]
@@ -502,7 +183,7 @@ children:
   runType: current_thread
   scope: source.php
   workingDirectoryType: UNDEFINED
-- !!com.aptana.scripting.model.CommandElement
+- !command
   async: false
   customProperties:
     prefix_values: [const]
@@ -516,7 +197,7 @@ children:
   runType: current_thread
   scope: source.php
   workingDirectoryType: UNDEFINED
-- !!com.aptana.scripting.model.CommandElement
+- !command
   async: false
   customProperties:
     prefix_values: [row]
@@ -530,7 +211,7 @@ children:
   runType: current_thread
   scope: source.php
   workingDirectoryType: UNDEFINED
-- !!com.aptana.scripting.model.CommandElement
+- !command
   async: false
   customProperties:
     prefix_values: [wpdb]
@@ -544,7 +225,7 @@ children:
   runType: current_thread
   scope: source.php
   workingDirectoryType: UNDEFINED
-- !!com.aptana.scripting.model.CommandElement
+- !command
   async: false
   customProperties:
     prefix_values: [wplink]
@@ -558,7 +239,7 @@ children:
   runType: current_thread
   scope: source.php
   workingDirectoryType: UNDEFINED
-- !!com.aptana.scripting.model.CommandElement
+- !command
   async: false
   customProperties: null
   displayName: Localize
@@ -571,7 +252,7 @@ children:
   runType: current_thread
   scope: source.php
   workingDirectoryType: UNDEFINED
-- !!com.aptana.scripting.model.CommandElement
+- !command
   async: false
   customProperties: null
   displayName: Localize var
@@ -584,7 +265,7 @@ children:
   runType: current_thread
   scope: source.php
   workingDirectoryType: UNDEFINED
-- !!com.aptana.scripting.model.CommandElement
+- !command
   async: false
   customProperties:
     prefix_values: [nav]
@@ -598,7 +279,7 @@ children:
   runType: current_thread
   scope: source.php
   workingDirectoryType: UNDEFINED
-- !!com.aptana.scripting.model.CommandElement
+- !command
   async: false
   customProperties:
     prefix_values: [post]
@@ -612,7 +293,7 @@ children:
   runType: current_thread
   scope: source.php
   workingDirectoryType: UNDEFINED
-- !!com.aptana.scripting.model.CommandElement
+- !command
   async: false
   customProperties:
     prefix_values: [$post]
@@ -626,7 +307,7 @@ children:
   runType: current_thread
   scope: source.php
   workingDirectoryType: UNDEFINED
-- !!com.aptana.scripting.model.CommandElement
+- !command
   async: false
   customProperties:
     prefix_values: [wpside]
@@ -1410,9 +1091,322 @@ children:
   runType: current_thread
   scope: source.php
   workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.MenuElement
+  children:
+  - children:
+    - children: &id001 []
+      commandName: Sidebar
+      customProperties: null
+      displayName: Sidebar
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Comments
+      customProperties: null
+      displayName: Comments
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: HTML Body tag
+      customProperties: null
+      displayName: HTML Body tag
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Footer
+      customProperties: null
+      displayName: Footer
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Header
+      customProperties: null
+      displayName: Header
+      path: bundle.rb
+      scope: null
+    commandName: Structure
+    customProperties: null
+    displayName: Structure
+    path: bundle.rb
+    scope: null
+  - children:
+    - children: *id001
+      commandName: 'Comment:'
+      customProperties: null
+      displayName: 'Comment:'
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Author Meta
+      customProperties: null
+      displayName: Author Meta
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Loop
+      customProperties: null
+      displayName: Loop
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Headline
+      customProperties: null
+      displayName: Headline
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: '-'
+      customProperties: null
+      displayName: '-'
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: 'Post:'
+      customProperties: null
+      displayName: 'Post:'
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: 'Navigation:'
+      customProperties: null
+      displayName: 'Navigation:'
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: '-'
+      customProperties: null
+      displayName: '-'
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Query Posts
+      customProperties: null
+      displayName: Query Posts
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Flush Query Cache
+      customProperties: null
+      displayName: Flush Query Cache
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Insert Class Reference
+      customProperties: null
+      displayName: Insert Class Reference
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Insert Table Reference
+      customProperties: null
+      displayName: Insert Table Reference
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Insert Row Reference
+      customProperties: null
+      displayName: Insert Row Reference
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: '-'
+      customProperties: null
+      displayName: '-'
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Insert Constant
+      customProperties: null
+      displayName: Insert Constant
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Insert Condition
+      customProperties: null
+      displayName: Insert Condition
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: '-'
+      customProperties: null
+      displayName: '-'
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: 'Bloginfo: General'
+      customProperties: null
+      displayName: 'Bloginfo: General'
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: 'Bloginfo: Feeds'
+      customProperties: null
+      displayName: 'Bloginfo: Feeds'
+      path: bundle.rb
+      scope: null
+    commandName: Loop
+    customProperties: null
+    displayName: Loop
+    path: bundle.rb
+    scope: null
+  - children:
+    - children: *id001
+      commandName: List Categories (WP)
+      customProperties: null
+      displayName: List Categories (WP)
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: List Categories (Full Options)
+      customProperties: null
+      displayName: List Categories (Full Options)
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Get Category Parents
+      customProperties: null
+      displayName: Get Category Parents
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Get The Category (Categories)
+      customProperties: null
+      displayName: Get The Category (Categories)
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Cat->Member Variable
+      customProperties: null
+      displayName: Cat->Member Variable
+      path: bundle.rb
+      scope: null
+    commandName: Categories
+    customProperties: null
+    displayName: Categories
+    path: bundle.rb
+    scope: null
+  - children:
+    - children: *id001
+      commandName: Filter
+      customProperties: null
+      displayName: Filter
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Action
+      customProperties: null
+      displayName: Action
+      path: bundle.rb
+      scope: null
+    commandName: Plugins
+    customProperties: null
+    displayName: Plugins
+    path: bundle.rb
+    scope: null
+  - children:
+    - children: *id001
+      commandName: Escaping functions
+      customProperties: null
+      displayName: Escaping functions
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Single Post Title
+      customProperties: null
+      displayName: Single Post Title
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Post->Member Variable
+      customProperties: null
+      displayName: Post->Member Variable
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Comment->Member Variable
+      customProperties: null
+      displayName: Comment->Member Variable
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Get Archives
+      customProperties: null
+      displayName: Get Archives
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: WP Redirect
+      customProperties: null
+      displayName: WP Redirect
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: 'Link:'
+      customProperties: null
+      displayName: 'Link:'
+      path: bundle.rb
+      scope: null
+    commandName: Other
+    customProperties: null
+    displayName: Other
+    path: bundle.rb
+    scope: null
+  - children:
+    - children: *id001
+      commandName: Widget
+      customProperties: null
+      displayName: Widget
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Readme.txt
+      customProperties: null
+      displayName: Readme.txt
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Plugin with GPL
+      customProperties: null
+      displayName: Plugin with GPL
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Plugin
+      customProperties: null
+      displayName: Plugin
+      path: bundle.rb
+      scope: null
+    commandName: Plugin creation
+    customProperties: null
+    displayName: Plugin creation
+    path: bundle.rb
+    scope: null
+  - children:
+    - children: *id001
+      commandName: Localize
+      customProperties: null
+      displayName: Localize
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Localize var
+      customProperties: null
+      displayName: Localize var
+      path: bundle.rb
+      scope: null
+    commandName: Localization
+    customProperties: null
+    displayName: Localization
+    path: bundle.rb
+    scope: null
+  commandName: Wordpress
+  customProperties: null
+  displayName: Wordpress
+  path: bundle.rb
+  scope: null
 copyright: null
 customProperties: null
-decreaseIndentMarkers: &id002 {}
+decreaseIndentMarkers: {}
 description: 'Wordpress Ruble converted from TextMate bundle. TM Bundle by:
 
   http://yoast.com/tools/textmate/ - Joost de Valk
@@ -1421,11 +1415,11 @@ description: 'Wordpress Ruble converted from TextMate bundle. TM Bundle by:
 
   '
 displayName: Wordpress
-fileTypeRegistry: *id002
-fileTypes: *id001
-foldingStartMarkers: *id002
-foldingStopMarkers: *id002
-increaseIndentMarkers: *id002
+fileTypeRegistry: {}
+fileTypes: []
+foldingStartMarkers: {}
+foldingStopMarkers: {}
+increaseIndentMarkers: {}
 license: null
 licenseUrl: null
 path: bundle.rb

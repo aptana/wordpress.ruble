@@ -38,8 +38,8 @@ END
       submenu.separator
       submenu.command 'Bloginfo: General'
       submenu.command 'Bloginfo: Feeds'
-      submenu.menu 'Navigation' do |submenu|
-      end
+      #submenu.menu 'Navigation' do |submenu|
+      #end
     end
     main_menu.menu 'Categories' do |submenu|
       submenu.command 'List Categories (WP)'
