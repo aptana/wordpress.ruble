@@ -1,26 +1,26 @@
 with_defaults :scope => 'source.php' do
   
-snippet 'Action' do |s|
+snippet t(:action) do |s|
   s.trigger = 'wpact'
   s.expansion = 'add_action(\'${1:hook}\',\'${2:callback-function}\',${3:10},${4:1});'
 end
 
-snippet 'Filter' do |s|
+snippet t(:filter) do |s|
   s.trigger = 'wpfilt'
   s.expansion = 'add_filter(\'${1:hook}\',\'${2:callback-function}\',${3:10},${4:1});'
 end
 
-snippet 'Get Archives' do |s|
+snippet t(:get_archives) do |s|
   s.trigger = 'wparch'
   s.expansion = '<?php wp_get_archives(\'${1:type=monthly&limit=12&show_post_count=1}\'); ?>'
 end
 
-snippet 'Get Category Parents' do |s|
+snippet t(:get_category_parents) do |s|
   s.trigger = 'catparents'
   s.expansion = '<?php echo(get_category_parents(${1:category}, ${2:display link}, ${3:separator}, ${4:nice name})); ?>'
 end
 
-snippet 'Get The Category (Categories)' do |s|
+snippet t(:get_category) do |s|
   s.trigger = 'thecat'
   s.expansion = '<?php 
 foreach((get_the_category()) as $cat) { 
@@ -29,29 +29,29 @@ ${1:echo $cat->cat_name . \' \';}$2
 $0'
 end
 
-snippet 'Headline' do |s|
+snippet t(:headline) do |s|
   s.trigger = 'headline'
   s.expansion = '<a href="<?php the_permalink(); ?>" rel="bookmark">"\'><?php the_title(); ?></a>'
 end
 
-snippet 'HTML Body tag' do |s|
+snippet t(:html_body_tag) do |s|
   s.trigger = 'body'
   s.expansion = '<body ${1:<?php body_class(); ?>}>
 	$2
 </body>'
 end
 
-snippet 'List Categories (Full Options)' do |s|
+snippet t(:list_categories_full_options) do |s|
   s.trigger = 'listcats'
   s.expansion = '<?php list_cats(${1:optionall}, \'${2:all}\', \'${3:sort_column}\',\'${4:sort_order}\', \'${5:file}\', ${6:list}, ${7:optiondates}, ${8:optioncount}, ${9:hide_empty}, ${10:use_desc_for_title}, ${11:children}, ${12:child_of}, \'${13:Categories}\', ${14:recurse}, \'${15:feed}\', \'${16:feed_img}\', \'${17:exclude}\', ${18:hierarchical}); ?>$0'
 end
 
-snippet 'List Categories (WP)' do |s|
+snippet t(:list_categories_wp) do |s|
   s.trigger = 'listcats'
   s.expansion = '<?php wp_list_cats(\'$1\'); ?>$0'
 end
 
-snippet 'Loop' do |s|
+snippet t(:loop) do |s|
   s.trigger = 'loop'
   s.expansion = '<?php if (have_posts()) : ?>
 
@@ -70,7 +70,7 @@ snippet 'Loop' do |s|
 <?php endif; ?>'
 end
 
-snippet 'Plugin with GPL' do |s|
+snippet t(:plugin_with_gpl) do |s|
   s.trigger = 'plugin'
   s.expansion = '<?php
 /*
@@ -104,7 +104,7 @@ $5
 '
 end
 
-snippet 'Plugin' do |s|
+snippet t(:plugin) do |s|
   s.trigger = 'plugin'
   s.expansion = '<?php
 /*
@@ -123,12 +123,12 @@ $5
 '
 end
 
-snippet 'Query Posts' do |s|
+snippet t(:query_posts) do |s|
   s.trigger = 'query'
   s.expansion = '<?php query_posts("${1:cat=-3}") ?>'
 end
 
-snippet 'Readme.txt' do |s|
+snippet t(:readme_txt) do |s|
   s.trigger = 'readme'
   s.expansion = '=== ${1:Plugin Name} ===
 Contributors: ${TM_WP_LOGIN}
@@ -156,12 +156,12 @@ ${7:Short description}
 * Initial release.'
 end
 
-snippet 'Single Post Title' do |s|
+snippet t(:single_post_title) do |s|
   s.trigger = 'singletitle'
   s.expansion = '<?php single_post_title(${1:\'Current post: \'}${2:, TRUE}); ?>'
 end
 
-snippet 'Widget' do |s|
+snippet t(:widget) do |s|
   s.trigger = 'widget'
   s.expansion = 'class $1_Widget extends WP_Widget {
 
@@ -210,7 +210,7 @@ add_action( \'widgets_init\', \'$4_widget_func\' );
 '
 end
 
-snippet 'WP Redirect' do |s|
+snippet t(:wp_redirect) do |s|
   s.trigger = 'wpredir'
   s.expansion = 'wp_redirect("$1",${2:301});	'
 end

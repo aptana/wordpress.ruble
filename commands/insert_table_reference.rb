@@ -1,6 +1,6 @@
 require 'ruble'
 
-command 'Insert Table Reference' do |cmd|
+command t(:insert_table_reference) do |cmd|
   cmd.scope = 'source.php'
   cmd.trigger = 'wpdb'
   cmd.output = :insert_as_snippet

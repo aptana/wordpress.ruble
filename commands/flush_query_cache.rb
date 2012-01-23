@@ -1,6 +1,6 @@
 require 'ruble'
 
-command 'Flush Query Cache' do |cmd|
+command t(:flush_query_cache) do |cmd|
   cmd.scope = 'source.php'
   cmd.trigger = 'flush'
   cmd.output = :insert_as_snippet

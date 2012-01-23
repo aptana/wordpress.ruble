@@ -1,6 +1,6 @@
 require 'ruble'
 
-command 'Header' do |cmd|
+command t(:header) do |cmd|
   cmd.scope = 'source.php'
   cmd.trigger = 'wphead'
   cmd.output = :insert_as_snippet

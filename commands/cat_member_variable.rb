@@ -1,6 +1,6 @@
 require 'ruble'
 
-command 'Cat->Member Variable' do |cmd|
+command t(:cat_member_variable) do |cmd|
   cmd.scope = 'source.php'
   cmd.trigger = '$cat'
   cmd.output = :insert_as_snippet

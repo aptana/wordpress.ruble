@@ -1,6 +1,6 @@
 require 'ruble'
 
-command 'Post:' do |cmd|
+command t(:post) do |cmd|
   cmd.scope = 'source.php'
   cmd.trigger = 'post'
   cmd.output = :insert_as_snippet

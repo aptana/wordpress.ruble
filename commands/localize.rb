@@ -1,6 +1,6 @@
 require 'ruble'
 
-command 'Localize' do |cmd|
+command t(:localize) do |cmd|
   cmd.scope = 'source.php'
   cmd.output = :insert_as_snippet
   cmd.input = :none

@@ -1,6 +1,6 @@
 require 'ruble'
 
-command 'Comments' do |cmd|
+command t(:comments) do |cmd|
   cmd.scope = 'source.php'
   cmd.trigger = 'wpcomment'
   cmd.output = :insert_as_snippet

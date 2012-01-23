@@ -1,6 +1,6 @@
 require 'ruble'
 
-command 'Comment:' do |cmd|
+command t(:comment) do |cmd|
   cmd.scope = 'source.php'
   cmd.trigger = 'comment'
   cmd.output = :insert_as_snippet

@@ -1,6 +1,6 @@
 require 'ruble'
 
-command 'Insert Constant' do |cmd|
+command t(:insert_constant) do |cmd|
   cmd.scope = 'source.php'
   cmd.trigger = 'const'
   cmd.output = :insert_as_snippet

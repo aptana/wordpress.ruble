@@ -1,6 +1,6 @@
 require 'ruble'
 
-command 'Comment->Member Variable' do |cmd|
+command t(:comment_member_variable) do |cmd|
   cmd.scope = 'source.php'
   cmd.trigger = '$comment'
   cmd.output = :insert_as_snippet

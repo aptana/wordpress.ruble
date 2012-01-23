@@ -1,6 +1,6 @@
 require 'ruble'
 
-command 'Bloginfo: Feeds' do |cmd|
+command t(:bloginfo_feeds) do |cmd|
   cmd.scope = 'source.php'
   cmd.trigger = 'blog'
   cmd.output = :insert_as_snippet

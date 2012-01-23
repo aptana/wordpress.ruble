@@ -1,6 +1,6 @@
 require 'ruble'
 
-command 'Link:' do |cmd|
+command t(:link) do |cmd|
   cmd.scope = 'source.php'
   cmd.trigger = 'wplink'
   cmd.output = :insert_as_snippet

@@ -1,6 +1,6 @@
 require 'ruble'
 
-command 'Insert Row Reference' do |cmd|
+command t(:insert_row_reference) do |cmd|
   cmd.scope = 'source.php'
   cmd.trigger = 'row'
   cmd.output = :insert_as_snippet

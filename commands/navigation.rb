@@ -1,6 +1,6 @@
 require 'ruble'
 
-command 'Navigation:' do |cmd|
+command t(:navigation) do |cmd|
   cmd.scope = 'source.php'
   cmd.trigger = 'nav'
   cmd.output = :insert_as_snippet

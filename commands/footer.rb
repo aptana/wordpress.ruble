@@ -1,6 +1,6 @@
 require 'ruble'
 
-command 'Footer' do |cmd|
+command t(:footer) do |cmd|
   cmd.scope = 'source.php'
   cmd.trigger = 'wpfoot'
   cmd.output = :insert_as_snippet

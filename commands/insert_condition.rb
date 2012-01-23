@@ -1,6 +1,6 @@
 require 'ruble'
 
-command 'Insert Condition' do |cmd|
+command t(:insert_condition) do |cmd|
   cmd.scope = 'source.php'
   cmd.trigger = 'is'
   cmd.output = :insert_as_snippet

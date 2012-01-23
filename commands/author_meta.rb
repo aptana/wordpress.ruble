@@ -1,6 +1,6 @@
 require 'ruble'
 
-command 'Author Meta' do |cmd|
+command t(:author_meta) do |cmd|
   cmd.scope = 'source.php'
   cmd.trigger = 'author'
   cmd.output = :insert_as_snippet

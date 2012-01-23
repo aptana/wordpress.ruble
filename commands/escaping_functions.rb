@@ -1,6 +1,6 @@
 require 'ruble'
 
-command 'Escaping functions' do |cmd|
+command t(:escaping_functions) do |cmd|
   cmd.scope = 'source.php'
   cmd.trigger = 'esc'
   cmd.output = :insert_as_snippet
